@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    align-content: center;
+    padding: 10px;
+}
+section h2{
+    text-align: center;
+}
+section .passwordline{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+section p{
+    display: flex;
+    text-justify: center;
+    
+
+}
+#password{
+    width: fit-content;
+    float: left;
+    padding-right: 40px;
+    
+}
+#forgotpassword{
+    width: fit-content;
+    float: right;
+    text-align: right;
+    up:15px;
+    
+}
+section button{
+    background-color: yellow;
+}
+#img{
+    text-align:center;
+}
+#underbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    margin-top: 20px;
+    border-top: 3px solid black;
+    text-align: center;
+
+}
+.continue{
+    color:rgb(226, 153, 43)
+}    
+
+
